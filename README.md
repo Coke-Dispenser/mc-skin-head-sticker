@@ -4,7 +4,7 @@
 
 A collaborative web app for placing Minecraft skin heads onto group photos.
 
-前端采用 BCL 社团风格，使用 Vue 3、Konva；后端使用 FastAPI、Pillow 和 SQLite，通过 Docker Compose 部署。
+使用 Vue 3、Konva；后端使用 FastAPI、Pillow 和 SQLite，通过 Docker Compose 部署。
 
 管理员上传多张 JPG、PNG 或 WebP 合照。所有登录成员均可添加、拖动、旋转、缩放或移除头像。头像支持 Java 版正版 ID 获取和自定义图片上传。操作完成后自动保存，通过「刷新合照」获取他人的修改。同一头像发生版本冲突时提示刷新。
 
@@ -47,4 +47,4 @@ SQLite、原图和头像存放于 Docker 数据卷 bcl-photo_studio-data，挂�
 
 ## 许可证
 
-采用 [MIT License](LICENSE)。本项目非 Mojang / Microsoft 官方产品，与其没有隶属关系。
+采用 [MIT License](LICENSE)。
